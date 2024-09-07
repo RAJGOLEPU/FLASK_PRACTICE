@@ -1,0 +1,58 @@
+.greeting_body {
+    background-image: url('pexels-anjana-c-169994-674010.jpg');
+}
+.main_body {
+    background-color: #848b92;
+    background-image: url('pexels-anjana-c-169994-674010.jpg');
+}
+.main_h1 {
+    background-image: url('pexels-anjana-c-169994-674010.jpg');
+    border: 200px;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #848b92;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #848b92;
+}
+
+.bg-primary {
+    background-color: #848b92 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.min-vh-100 {
+    min-height: 100vh !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.card, .bg-light {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
